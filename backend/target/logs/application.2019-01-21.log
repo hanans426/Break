@@ -1,0 +1,52 @@
+2019-01-21 21:09:17.019 778  INFO  akka.event.slf4j.Slf4jLogger [medusa-akka.actor.default-dispatcher-3]  - Slf4jLogger started
+2019-01-21 21:09:17.117 876  INFO  com.neo.sk.break.core.UserManager$ [main]  - UserManager start...
+2019-01-21 21:09:17.121 880  INFO  com.neo.sk.break.core.RoomManager$ [main]  - RoomManager start...
+2019-01-21 21:09:17.141 900  INFO  com.neo.sk.utils.DBUtil$ [main]  - connect to db: jdbc:postgresql://10.1.29.250:5432/
+2019-01-21 21:09:17.250 1009 WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-21 21:09:17.490 1249 INFO  com.neo.sk.break.Boot$ [medusa-akka.actor.default-dispatcher-3] Boot$(akka://medusa) - Starting.
+2019-01-21 21:09:17.491 1250 INFO  com.zaxxer.hikari.HikariDataSource [AsyncExecutor.default-1]  - HikariPool-1 - Starting...
+2019-01-21 21:09:18.018 1777 INFO  com.neo.sk.break.Boot$ [medusa-akka.actor.default-dispatcher-2] Boot$(akka://medusa) - Listen to the 0.0.0.0:30372
+2019-01-21 21:09:18.018 1777 INFO  com.neo.sk.break.Boot$ [medusa-akka.actor.default-dispatcher-2] Boot$(akka://medusa) - Done.
+2019-01-21 21:09:20.820 4579 INFO  com.neo.sk.utils.AuthUtils$ [medusa-akka.actor.my-blocking-dispatcher-7]  - get token success
+2019-01-21 21:09:20.820 4579 INFO  com.neo.sk.break.core.AuthActor$ [medusa-akka.actor.my-blocking-dispatcher-7]  - ---get new token----
+2019-01-21 21:09:28.553 12312 ERROR com.zaxxer.hikari.pool.HikariPool [AsyncExecutor.default-1]  - HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: 尝试连线已失败。
+	at org.postgresql.Driver$ConnectThread.getResult(Driver.java:403)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.postgresql.ds.common.BaseDataSource.getConnection(BaseDataSource.java:94)
+	at org.postgresql.ds.common.BaseDataSource.getConnection(BaseDataSource.java:79)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:443)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:514)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:111)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:97)
+	at slick.jdbc.DataSourceJdbcDataSource.createConnection(JdbcDataSource.scala:71)
+	at slick.jdbc.JdbcBackend$BaseSession.<init>(JdbcBackend.scala:453)
+	at slick.jdbc.JdbcBackend$DatabaseDef.createSession(JdbcBackend.scala:46)
+	at slick.jdbc.JdbcBackend$DatabaseDef.createSession(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.acquireSession(BasicBackend.scala:249)
+	at slick.basic.BasicBackend$DatabaseDef.acquireSession$(BasicBackend.scala:248)
+	at slick.jdbc.JdbcBackend$DatabaseDef.acquireSession(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:274)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:69)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:156)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:452)
+	at org.postgresql.Driver.access$100(Driver.java:61)
+	at org.postgresql.Driver$ConnectThread.run(Driver.java:362)
+	... 1 common frames omitted
+2019-01-21 21:09:28.555 12314 INFO  com.neo.sk.utils.CountUtils$ [medusa-akka.actor.my-blocking-dispatcher-8]  - get init count error

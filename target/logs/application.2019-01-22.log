@@ -1,0 +1,15 @@
+2019-01-22 16:38:48.042 181  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:39:17.029 159  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:41:00.441 164  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:41:21.090 183  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:45:59.205 231  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:47:36.517 191  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:49:08.957 167  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:49:13.447 201  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:51:00.571 178  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:59:16.267 889  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 16:59:47.464 195  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 21:09:38.207 2525 WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 21:12:56.983 191  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 21:29:48.140 7336 WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-01-22 21:31:02.567 212  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.

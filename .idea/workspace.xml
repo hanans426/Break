@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e02fc48f-7c8b-45d4-927c-0dc2b261c42b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/Routes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/Boot.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/common/AppSettings.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/common/Constants.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/AuthActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/BotActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/GameReader.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/GameRecorder.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/RoomActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/RoomManager.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/UserActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/UserManager.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/WatcherActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/WatcherManager.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/Api4PlayInfo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/Api4Record.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/DownLoadService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/HttpService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/LinkService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/ResourceService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/RoomService4Bot.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/http/SessionBase.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/models/Dao/GameRecordDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/models/Dao/UserRecordDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/models/SlickTables.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/models/package.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/protocol/CommonErrorCode.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/protocol/JandCRoomProtocol.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/protocol/PlayInfoProtocol.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/protocol/RecordApiProtocol.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/snake/Delayer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/snake/GridOnServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/snake/QuadTree.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/AuthUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/BatRecordUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/BatRecordUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/CountUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/DBUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/DBUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ESSFSupport.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/MySlickCodeGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/MySlickCodeGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ServiceUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ServiceUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/protobuf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/protobuf/actions.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/protobuf/api.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/protobuf/observations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/protobuf/service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/champion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/ClientBoot.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/actor/ByteReceiver.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/actor/GameMessageReceiver.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/actor/GrpcStreamSender.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/actor/SdkServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/actor/WSClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/common/AppSettings.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/common/InfoHandler.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/common/StageContext.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/controller/GameController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/controller/LoginController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/gRPCService/MedusaServer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/gRPCService/MedusaTestClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/model/GridOnClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/protocol/AuthProtocol.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/GameInfoCanvas.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/GameMapCanvas.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/GameScene.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/GameViewCanvas.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/LayerCanvas.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/LayerScene.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/LoginScene.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/utils/Api4GameAgent.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/utils/AuthUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/utils/HttpUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GameInfo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GameMap.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GameRoom.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GameView.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GridOnClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/JsFunc.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/NetGameHolder.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/NetInfoHandler.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/medusa/snake/Grid.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/medusa/snake/Protocol.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/medusa/snake/Protocol4Agent.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/medusa/snake/package.scala" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/target/" />
+    <ignored path="$PROJECT_DIR$/backend/target/" />
+    <ignored path="$PROJECT_DIR$/frontend/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/target/" />
+    <ignored path="$PROJECT_DIR$/backend/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/backend/project/target/" />
+    <ignored path="$PROJECT_DIR$/frontend/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/frontend/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/project/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/client/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/client/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="break@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="break@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="break@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="break: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="break@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="break: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="break@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="break: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="break@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="break: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="user: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="break" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1016674659">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1" value="6" />
+          <entry key="JS_DEPENDENCIES" value="1" />
+          <entry key="bat" value="2" />
+          <entry key="class" value="12" />
+          <entry key="conf" value="123" />
+          <entry key="history" value="2" />
+          <entry key="html" value="35" />
+          <entry key="java" value="322" />
+          <entry key="jpeg" value="2" />
+          <entry key="jpg" value="65" />
+          <entry key="js" value="2" />
+          <entry key="json" value="1" />
+          <entry key="log" value="37" />
+          <entry key="md" value="23" />
+          <entry key="medusa" value="4" />
+          <entry key="medusa10000038" value="2" />
+          <entry key="medusa10000050" value="2" />
+          <entry key="png" value="217" />
+          <entry key="properties" value="6" />
+          <entry key="proto" value="79" />
+          <entry key="records" value="8" />
+          <entry key="rnc" value="2" />
+          <entry key="sbt" value="43" />
+          <entry key="scala" value="4747" />
+          <entry key="sql" value="10" />
+          <entry key="xml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="12" />
+          <entry key="Database Element" value="8" />
+          <entry key="Enforced Plain Text" value="1" />
+          <entry key="HOCON" value="123" />
+          <entry key="HTML" value="35" />
+          <entry key="Image" value="284" />
+          <entry key="JAVA" value="322" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="23" />
+          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="Properties" value="6" />
+          <entry key="RNG Compact" value="2" />
+          <entry key="SQL" value="1" />
+          <entry key="Scala" value="4746" />
+          <entry key="Scratch" value="9" />
+          <entry key="XML" value="20" />
+          <entry key="sbt" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="286" />
+          <entry key="git.branch.checkout.remote" value="3" />
+          <entry key="git.branch.compare" value="1" />
+          <entry key="git.branch.create.new" value="2" />
+          <entry key="git.branch.merge" value="131" />
+          <entry key="git.checkout.as.new.branch" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="552" />
+          <entry key="html" value="556" />
+          <entry key="md" value="2" />
+          <entry key="proto" value="2" />
+          <entry key="sbtShell" value="6" />
+          <entry key="scala" value="66136" />
+          <entry key="txt" value="1286" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HOCON" value="552" />
+          <entry key="HTML" value="556" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1288" />
+          <entry key="Scala" value="66136" />
+          <entry key="XML" value="3" />
+          <entry key="sbtShell" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-420977324">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="conf" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="2" />
+          <entry key="java" value="1" />
+          <entry key="sbt" value="2" />
+          <entry key="scala" value="114" />
+          <entry key="sql" value="9" />
+          <entry key="user" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Database Element" value="1" />
+          <entry key="HOCON" value="4" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scala" value="114" />
+          <entry key="Scratch" value="9" />
+          <entry key="sbt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="182" />
+          <entry key="sbt" value="30" />
+          <entry key="scala" value="2095" />
+          <entry key="sql" value="66" />
+          <entry key="txt" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HOCON" value="182" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="SQL" value="23" />
+          <entry key="Scala" value="2095" />
+          <entry key="Scratch" value="43" />
+          <entry key="sbt" value="30" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="medusa">
+      <favorite_root url="com.neo.sk.break.JandCRoomProtocol$" module="backend" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/NetGameHolder.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5535">
+              <caret line="369" column="11" selection-start-line="369" selection-start-column="11" selection-end-line="369" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://fdd9082c-454a-47d4-a5c5-b476710a30ae/database/break/schema/public/table/user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/pages/LoginPage.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/pages/RegisterPage.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/JsFunc.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/Main.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/Routes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fdd9082c-454a-47d4-a5c5-b476710a30ae/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/MySlickCodeGenerator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/UserProtocol.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/GridOnClient.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Package Object" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>binarymessage</find>
+      <find>fail msg server</find>
+      <find>sink</find>
+      <find>binary</find>
+      <find>snake4Client</find>
+      <find>WSClient - Success</find>
+      <find>WSClient</find>
+      <find>key</find>
+      <find>Key(</find>
+      <find>print</find>
+      <find>println</find>
+      <find>animated</find>
+      <find>KeyCode</find>
+      <find>Ke</find>
+      <find>copy</find>
+      <find>actionMap</find>
+      <find>effect</find>
+      <find>action called</find>
+      <find>accessCode</find>
+      <find>spawn</find>
+      <find>botInfoActor</find>
+      <find>ActorRef</find>
+      <find>serverActor</find>
+      <find>font</find>
+      <find>medusa</find>
+      <find>name</find>
+      <find>clientMainClass</find>
+      <find>client</find>
+      <find>Boot</find>
+      <find>route</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>scaleView</replace>
+      <replace>bitLoginButton</replace>
+      <replace>botLoginButton</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/client</dir>
+      <dir>$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-2.0" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev-2.0" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev-merge" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/actor/ByteReceiver.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/gRPCService/MedusaServer.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/controller/GameController.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GameInfo.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/medusa/snake/scalajs/GameView.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/com/neo/sk/medusa/scene/LayerCanvas.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/medusa/core/AuthActor.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/AuthActor.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/breaking/common/AppSettings.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/breaking/Boot.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/Constants.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/Api4Record.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/Api4PlayInfo.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/DownLoadService.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RoomService4Bot.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/HttpService.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/AppSettings.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LinkService.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/snake/Protocol.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/snake/scalajs/RegisterPage.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/snake/UserProtocol.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/PlayInfoProtocol.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/protocol.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/CommonErrorCode.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/UserDao.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/snake/package.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/snake/scalajs/NetGameHolder.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/snake/GridOnServer.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/snake/Grid.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/GameRecordDao.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/UserRecordDao.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ESSFSupport.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/CountUtils.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/Boot.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/AuthUtils.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/ResourceService.scala" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7467102-9239-47cd-9652-c0becf7f0ef7/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e6e1977b-2e2d-4f2d-8c66-fa1fabd76fbd/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fdd9082c-454a-47d4-a5c5-b476710a30ae/console.sql" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/MySlickCodeGenerator.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/utils/PageSwitcher.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/utils/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/GridOnClient.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/UserProtocol.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala" />
+        <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/Routes.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="break" type="b2602c69:ProjectViewProjectNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="break" type="b2602c69:ProjectViewProjectNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="break" type="b2602c69:ProjectViewProjectNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="break" type="b2602c69:ProjectViewProjectNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="break" type="b2602c69:ProjectViewProjectNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="break" type="b2602c69:ProjectViewProjectNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="break" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548935094109" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="com.neo.sk.medusa" />
+      <recent name="com.neo.sk.medusa.snake.scalajs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MySlickCodeGenerator">
+    <configuration name="ClientBoot (2)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.sk.medusa.ClientBoot" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.sk.break.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientBoot (4)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.sk.medusa.ClientBoot" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.sk.break.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientBoot (5)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.sk.medusa.ClientBoot" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.sk.break.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySlickCodeGenerator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.neo.sk.utils.MySlickCodeGenerator" />
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neo.sk.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: utils" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/utils" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="frontend" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientBoot (5)" />
+      <item itemvalue="Application.ClientBoot (4)" />
+      <item itemvalue="Application.ClientBoot (2)" />
+      <item itemvalue="Application.MySlickCodeGenerator" />
+      <item itemvalue="Cucumber java.All Features in: utils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MySlickCodeGenerator" />
+        <item itemvalue="Cucumber java.All Features in: utils" />
+        <item itemvalue="Application.ClientBoot (2)" />
+        <item itemvalue="Application.ClientBoot (4)" />
+        <item itemvalue="Application.ClientBoot (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="break" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJS [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="frontend [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/frontend" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="backend [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/backend" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="break-sources" />
+                <option name="path" value="$PROJECT_DIR$/shared" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root-build [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="backend-build [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/backend/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="frontend-build [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/frontend/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJS-build [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM-build [file:/Users/gaohan/Downloads/break/]" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="7721998082000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2178501351" />
+        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="3137606632" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2096222171" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="799065247" />
+        <entry key="$PROJECT_DIR$/project/scalapb.sbt" value="627270823" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../jd_Spider_single" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../medusa.git" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tank" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../todos2018" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e02fc48f-7c8b-45d4-927c-0dc2b261c42b" name="Default Changelist" comment="" />
+      <created>1539569335604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539569335604</updated>
+      <workItem from="1539569338992" duration="13361000" />
+      <workItem from="1539592530186" duration="1535000" />
+      <workItem from="1539655851006" duration="90891000" />
+      <workItem from="1540192934319" duration="199000" />
+      <workItem from="1540193291638" duration="597000" />
+      <workItem from="1540194021262" duration="12000" />
+      <workItem from="1540194054644" duration="58000" />
+      <workItem from="1540194135600" duration="9303000" />
+      <workItem from="1540275522935" duration="7182000" />
+      <workItem from="1540298759422" duration="616000" />
+      <workItem from="1540299850648" duration="40667000" />
+      <workItem from="1540520264733" duration="68588000" />
+      <workItem from="1540985111696" duration="68494000" />
+      <workItem from="1541645170209" duration="31751000" />
+      <workItem from="1542030433713" duration="21956000" />
+      <workItem from="1542161065023" duration="33691000" />
+      <workItem from="1542593568124" duration="38247000" />
+      <workItem from="1543145005804" duration="3038000" />
+      <workItem from="1543210025978" duration="61143000" />
+      <workItem from="1543494424278" duration="26118000" />
+      <workItem from="1543901453126" duration="87105000" />
+      <workItem from="1544420683418" duration="77932000" />
+      <workItem from="1544870907583" duration="38298000" />
+      <workItem from="1545201905288" duration="24672000" />
+      <workItem from="1545617225009" duration="127172000" />
+      <workItem from="1546527957148" duration="5328000" />
+      <workItem from="1546573227684" duration="15286000" />
+      <workItem from="1546827347532" duration="29259000" />
+      <workItem from="1547108741183" duration="3623000" />
+      <workItem from="1547183387069" duration="8672000" />
+      <workItem from="1547385343932" duration="18898000" />
+      <workItem from="1547463194636" duration="14925000" />
+      <workItem from="1548037105251" duration="13660000" />
+      <workItem from="1548063949727" duration="20403000" />
+      <workItem from="1548231241419" duration="7000" />
+      <workItem from="1548231275092" duration="737000" />
+      <workItem from="1548930026049" duration="2919000" />
+      <workItem from="1548933865367" duration="1116000" />
+    </task>
+    <task id="LOCAL-00024" summary="网页自适应debug">
+      <created>1541042032131</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1541042032131</updated>
+    </task>
+    <task id="LOCAL-00025" summary="网页自适应debug">
+      <created>1541056126641</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1541056126641</updated>
+    </task>
+    <task id="LOCAL-00026" summary="网页大小自适应完成">
+      <created>1541405354995</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1541405354995</updated>
+    </task>
+    <task id="LOCAL-00027" summary="网页大小自适应完成">
+      <created>1541407095608</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1541407095608</updated>
+    </task>
+    <task id="LOCAL-00028" summary="小地图debug">
+      <created>1541491636637</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541491636637</updated>
+    </task>
+    <task id="LOCAL-00029" summary="画布大小调整">
+      <created>1541494100735</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1541494100735</updated>
+    </task>
+    <task id="LOCAL-00030" summary="client样式调整">
+      <created>1541576871659</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1541576871659</updated>
+    </task>
+    <task id="LOCAL-00031" summary="小地图debug">
+      <created>1541658746875</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1541658746875</updated>
+    </task>
+    <task id="LOCAL-00032" summary="录像死亡debug">
+      <created>1542096962158</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542096962159</updated>
+    </task>
+    <task id="LOCAL-00033" summary="客户端适配">
+      <created>1542270024018</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542270024018</updated>
+    </task>
+    <task id="LOCAL-00034" summary="GameInfo 添加fps">
+      <created>1542273849963</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1542273849963</updated>
+    </task>
+    <task id="LOCAL-00035" summary="web段currentRank取top5">
+      <created>1543223525956</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1543223525956</updated>
+    </task>
+    <task id="LOCAL-00036" summary="currentRank">
+      <created>1543226179575</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1543226179575</updated>
+    </task>
+    <task id="LOCAL-00037" summary="客户端currentRank">
+      <created>1543290679183</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1543290679183</updated>
+    </task>
+    <task id="LOCAL-00038" summary="currentRank 数据精简">
+      <created>1543296078629</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1543296078629</updated>
+    </task>
+    <task id="LOCAL-00039" summary="snakeNum">
+      <created>1543304656610</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1543304656610</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Apple">
+      <created>1543382799692</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1543382799692</updated>
+    </task>
+    <task id="LOCAL-00041" summary="client Apple">
+      <created>1543384592370</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1543384592370</updated>
+    </task>
+    <task id="LOCAL-00042" summary="canvas2byteArray">
+      <created>1543921832705</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1543921832705</updated>
+    </task>
+    <task id="LOCAL-00043" summary="分图层显示">
+      <created>1544175124510</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1544175124510</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Merge branch 'dev-2.0-gh' into dev-2.0&#10;&#10;# Conflicts:&#10;#&#9;client/src/main/resources/application.conf&#10;#&#9;client/src/main/scala/com/neo/sk/medusa/controller/GameController.scala">
+      <created>1544175319815</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1544175319815</updated>
+    </task>
+    <task id="LOCAL-00045" summary="layerScene 与 getObservation">
+      <created>1544498386098</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1544498386099</updated>
+    </task>
+    <task id="LOCAL-00046" summary="layer 分辨率&#10;viewByte">
+      <created>1544594084738</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1544594084738</updated>
+    </task>
+    <task id="LOCAL-00047" summary="layerScene修改大小">
+      <created>1544602646952</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1544602646952</updated>
+    </task>
+    <task id="LOCAL-00048" summary="client 登录">
+      <created>1544699125354</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1544699125354</updated>
+    </task>
+    <task id="LOCAL-00049" summary="client 登录">
+      <created>1544757916963</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1544757916963</updated>
+    </task>
+    <task id="LOCAL-00050" summary="GameInfo myRank">
+      <created>1545014778605</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1545014778606</updated>
+    </task>
+    <task id="LOCAL-00051" summary="layerScene修改">
+      <created>1545111857728</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1545111857728</updated>
+    </task>
+    <task id="LOCAL-00052" summary="2byte 优化">
+      <created>1545202596156</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1545202596163</updated>
+    </task>
+    <task id="LOCAL-00053" summary="layerScene 与 gameScene">
+      <created>1545209314744</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1545209314745</updated>
+    </task>
+    <task id="LOCAL-00054" summary="background 转byte优化">
+      <created>1545362569306</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1545362569306</updated>
+    </task>
+    <task id="LOCAL-00055" summary="reconnect ws">
+      <created>1545714134586</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1545714134587</updated>
+    </task>
+    <task id="LOCAL-00056" summary="speedUp debug">
+      <created>1545803159621</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1545803159621</updated>
+    </task>
+    <task id="LOCAL-00057" summary="client speedUp debug">
+      <created>1545888200707</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1545888200707</updated>
+    </task>
+    <task id="LOCAL-00058" summary="speedUp debug">
+      <created>1545888575028</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1545888575028</updated>
+    </task>
+    <task id="LOCAL-00059" summary="layerScene map debug">
+      <created>1545974153712</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1545974153713</updated>
+    </task>
+    <task id="LOCAL-00060" summary="client 返回按钮">
+      <created>1545977990535</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1545977990535</updated>
+    </task>
+    <task id="LOCAL-00061" summary="layerScene 样式&#10;view缩放">
+      <created>1546411693858</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1546411693858</updated>
+    </task>
+    <task id="LOCAL-00062" summary="client 人类玩家视图抖动debug">
+      <created>1546422883982</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1546422883982</updated>
+    </task>
+    <task id="LOCAL-00063" summary="修改layerScene样式，添加一个kernelLayer&#10;修改viewByte为可配置&#10;获取到动作以及帧号并展示&#10;loginScene back 按钮debug">
+      <created>1546594838511</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1546594838518</updated>
+    </task>
+    <task id="LOCAL-00064" summary="修改layerScene样式，添加一个kernelLayer&#10;修改viewByte为可配置&#10;获取到动作以及帧号并展示&#10;loginScene back 按钮debug">
+      <created>1546595985790</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1546595985790</updated>
+    </task>
+    <task id="LOCAL-00065" summary="historyRank debug&#10;分层view视图地图皇冠位置debug&#10;reconnect按钮样式调整">
+      <created>1546854115696</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1546854115712</updated>
+    </task>
+    <task id="LOCAL-00066" summary="添加systemInfo的接口">
+      <created>1546940572750</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1546940572750</updated>
+    </task>
+    <task id="LOCAL-00067" summary="layerScene 调整">
+      <created>1547436167778</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1547436167790</updated>
+    </task>
+    <task id="LOCAL-00068" summary="layerScene 调整">
+      <created>1547436420678</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1547436420678</updated>
+    </task>
+    <task id="LOCAL-00069" summary="GameController重构">
+      <created>1547458024172</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1547458024172</updated>
+    </task>
+    <task id="LOCAL-00070" summary="GameController重构">
+      <created>1547458771325</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1547458771325</updated>
+    </task>
+    <task id="LOCAL-00071" summary="action画面debug">
+      <created>1547711854897</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1547711854898</updated>
+    </task>
+    <task id="LOCAL-00072" summary="snake color">
+      <created>1548052243207</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1548052243207</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1007459000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49198717" visible="true" weight="0.28170028" />
+      <window_info id="Structure" order="1" sideWeight="0.50566036" side_tool="true" weight="0.2615274" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50801283" side_tool="true" weight="0.30115274" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6289625" weight="0.26387176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5807645" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4963977" weight="0.3292232" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3292232" />
+      <window_info anchor="bottom" id="SBT Console" order="8" weight="0.3292232" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.3292232" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49351585" weight="0.1294698" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37103745" side_tool="true" weight="0.19482121" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2379778" />
+      <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49711815" weight="0.42293465" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49567723" weight="0.16152897" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49927953" weight="0.3292232" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" weight="0.32925072" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3299712" />
+      <window_info anchor="right" id="Database" order="8" weight="0.22694525" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="11" side_tool="true" weight="0.3299712" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49198717" visible="true" weight="0.2370317" />
+      <window_info id="Structure" order="1" sideWeight="0.50566036" side_tool="true" weight="0.2615274" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50801283" side_tool="true" weight="0.30115274" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49423632" visible="true" weight="0.43156597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5807645" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292232" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3292232" />
+      <window_info anchor="bottom" id="SBT Console" order="8" weight="0.3292232" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.3292232" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49351585" weight="0.3970407" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50648415" side_tool="true" weight="0.21454994" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.33908755" />
+      <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49711815" weight="0.42293465" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49567723" weight="0.48828608" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3292232" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="sbt" order="4" weight="0.32925072" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3299712" />
+      <window_info anchor="right" id="Database" order="8" weight="0.22694525" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="11" side_tool="true" weight="0.3299712" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.proto" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="3" value="162" />
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="2" />
+                  <option value="1" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="分图层显示" />
+    <MESSAGE value="Merge branch 'dev-2.0-gh' into dev-2.0&#10;&#10;# Conflicts:&#10;#&#9;client/src/main/resources/application.conf&#10;#&#9;client/src/main/scala/com/neo/sk/medusa/controller/GameController.scala" />
+    <MESSAGE value="layerScene 与 getObservation" />
+    <MESSAGE value="layer 分辨率&#10;viewByte" />
+    <MESSAGE value="layerScene修改大小" />
+    <MESSAGE value="client 登录" />
+    <MESSAGE value="GameInfo myRank" />
+    <MESSAGE value="layerScene修改" />
+    <MESSAGE value="2byte 优化" />
+    <MESSAGE value="layerScene 与 gameScene" />
+    <MESSAGE value="background 转byte优化" />
+    <MESSAGE value="reconnect ws" />
+    <MESSAGE value="client speedUp debug" />
+    <MESSAGE value="speedUp debug" />
+    <MESSAGE value="layerScene map debug" />
+    <MESSAGE value="client 返回按钮" />
+    <MESSAGE value="layerScene 样式&#10;view缩放" />
+    <MESSAGE value="client 人类玩家视图抖动debug" />
+    <MESSAGE value="修改layerScene样式，添加一个kernelLayer&#10;修改viewByte为可配置&#10;获取到动作以及帧号并展示&#10;loginScene back 按钮debug" />
+    <MESSAGE value="historyRank debug&#10;分层view视图地图皇冠位置debug&#10;reconnect按钮样式调整" />
+    <MESSAGE value="添加systemInfo的接口" />
+    <MESSAGE value="layerScene 调整" />
+    <MESSAGE value="GameController重构" />
+    <MESSAGE value="action画面debug" />
+    <MESSAGE value="snake color" />
+    <option name="LAST_COMMIT_MESSAGE" value="snake color" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/JandCRoomProtocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/PlayInfoProtocol.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/protocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/RecordApiProtocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/Delayer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/snake/QuadTree.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/snake/GridOnServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="10" selection-end-line="509" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/snake/Grid.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/GameRecordDao.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/UserRecordDao.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ESSFSupport.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/CountUtils.scala" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c90eb79b-0a19-449b-9129-c25d318359e5/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/AuthUtils.scala" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/ResourceService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/BatRecordUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/CirceSupport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af4d99e2-280c-4233-95fd-01a4e828cb3b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/AppSettings.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/DBUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7467102-9239-47cd-9652-c0becf7f0ef7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fbe9f0b7-c6a7-4da9-9c42-7f7a0f899939/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9e659542-4a4a-40ad-9219-7169e90e9c98/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6e1977b-2e2d-4f2d-8c66-fa1fabd76fbd/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/Routes.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/utils/PageSwitcher.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/utils/we.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/utils/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/package.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/LoginPage.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/RegisterPage.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/Main.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/utils/w.scala" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/utils/PageSwitcher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/NetGameHolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5535">
+          <caret line="369" column="11" selection-start-line="369" selection-start-column="11" selection-end-line="369" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fdd9082c-454a-47d4-a5c5-b476710a30ae/database/break/schema/public/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/pages/LoginPage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/pages/RegisterPage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/JsFunc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fdd9082c-454a-47d4-a5c5-b476710a30ae/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/MySlickCodeGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/UserProtocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/GridOnClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/Routes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>break</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sbt: ch.qos.logback:logback-classic:1.2.3:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

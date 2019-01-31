@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/gaohan/Downloads/break/frontend/target/scala-2.12/sjsout/frontend-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 470527 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 428485 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 912689 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 185429 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 8136 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 769554 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 967315 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 243593 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 15979 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 261010 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 716 -- invalidated: 730[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 4000[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 831338 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 670 -- trees read: 870[0m
