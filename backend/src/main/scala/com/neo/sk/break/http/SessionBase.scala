@@ -5,7 +5,6 @@ import akka.http.scaladsl.server
 import akka.http.scaladsl.server.Directives.{complete, onComplete, redirect, reject}
 import akka.http.scaladsl.server.{Directive0, Directive1, ValidationRejection}
 import akka.http.scaladsl.server.directives.BasicDirectives
-import com.neo.sk.break.common.AppSettings
 import com.neo.sk.utils.{CirceSupport, SessionSupport}
 import com.sun.xml.internal.ws.encoding.soap.DeserializationException
 import org.slf4j.LoggerFactory
@@ -83,6 +82,7 @@ trait SessionBase extends CirceSupport with SessionSupport {
 
   import SessionBase._
   import io.circe.generic.auto._
+  import com.neo.sk.break.common.AppSettings
   
   override val sessionEncoder = SessionSupport.PlaySessionEncoder
   override val sessionConfig = AppSettings.sessionConfig

@@ -1,11 +1,18 @@
 package com.neo.sk.break.http
 
+import java.util.concurrent.atomic.AtomicInteger
+
+import akka.actor.typed.javadsl.Behaviors.Supervise
 import akka.actor.{ActorRef, ActorSystem, Scheduler}
+import akka.http.javadsl.server.Route
+import akka.http.scaladsl.model.ws.{BinaryMessage, Message, TextMessage}
 import akka.http.scaladsl.server.Directives._
 import akka.stream.scaladsl.{Flow, Sink, Source}
-import akka.stream.{Materializer, OverflowStrategy}
-import akka.util.Timeout
-
+import akka.stream.{ActorAttributes, Materializer, OverflowStrategy, Supervision}
+import akka.util.{ByteString, Timeout}
+import org.seekloud.byteobject.MiddleBufferInJvm
+import org.seekloud.byteobject.ByteObject._
+import com.neo.sk.break.core.PlayGround
 
 import scala.concurrent.ExecutionContextExecutor
 
@@ -17,7 +24,8 @@ import scala.concurrent.ExecutionContextExecutor
 trait HttpService extends
   RegisterService with
   LoginService with
-  ResourceService {
+  ResourceService with
+  GameService {
 
 
   implicit val system: ActorSystem
@@ -30,40 +38,17 @@ trait HttpService extends
 
   implicit val scheduler: Scheduler
 
-  val breakRoute = {
-    (path("register") & post){
-      getFromResource("html/netBreak.html")
-    }
-  }
+   override val idGenerator = new AtomicInteger(1000)
 
-  val snakeRoute = {
-    (path("playGame") & get) {
-      getFromResource("html/netSnake.html")
-    } ~ (path("watchGame") & get){
-      getFromResource("html/netSnake.html")
-    } ~ (path("watchRecord") & get){
-      getFromResource("html/netSnake.html")
-    }
-  }
-
-//
-//  val routes =
-//    pathPrefix("medusa") {
-//       snakeRoute ~ resourceRoutes ~ linkRoute ~ playInfoRoute ~ downloadRoute ~
-//       downloadRoute2 ~ recordRoute~roomRoute
-//    }
 
   val routes =
-    ignoreTrailingSlash{
       pathPrefix("break"){
-        pathEndOrSingleSlash{
-          getFromResource("html/netBreak.html")
-        }~
-        resourceRoutes ~
-        registerRoutes ~
-        loginRoutes
+       // getFromResource("html/index.html")
+        registerRoute ~
+        loginRoute ~
+        indexRoute ~
+        gameRoute ~
+        resourceRoutes
       }
-    }
-
 
 }

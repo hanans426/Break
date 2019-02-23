@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190121203228"/>
+		date="20190222144642"/>
 	<dependencies>
 		<module organisation="com.thesamet.scalapb" name="compilerplugin_2.12">
 			<revision name="0.8.2" status="release" pubdate="20181024142537" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalapb/ScalaPB" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
@@ -446,7 +446,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20190121203225" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20190222144630" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="break-build" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>

@@ -4,17 +4,17 @@
 	<info
 		organisation="frontend"
 		module="frontend_sjs0.6_2.12"
-		revision="1.2.1"
+		revision="1.1.1"
 		conf="phantom-js-jetty"
 		confs="compile, runtime, test, provided, optional, protobuf, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20190121210757"/>
+		date="20190210141127"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-websocket">
 			<revision name="8.1.16.v20140903" status="release" pubdate="20140904020018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
 				<metadata-artifact status="no" details="" size="8138" time="0" location="/Users/gaohan/.ivy2/cache/org.eclipse.jetty/jetty-websocket/ivy-8.1.16.v20140903.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom"/>
-				<caller organisation="frontend" name="frontend_sjs0.6_2.12" conf="phantom-js-jetty" rev="8.1.16.v20140903" rev-constraint-default="8.1.16.v20140903" rev-constraint-dynamic="8.1.16.v20140903" callerrev="1.2.1"/>
+				<caller organisation="frontend" name="frontend_sjs0.6_2.12" conf="phantom-js-jetty" rev="8.1.16.v20140903" rev-constraint-default="8.1.16.v20140903" rev-constraint-dynamic="8.1.16.v20140903" callerrev="1.1.1"/>
 				<artifacts>
 					<artifact name="jetty-websocket" type="jar" ext="jar" status="no" details="" size="127801" time="0" location="/Users/gaohan/.ivy2/cache/org.eclipse.jetty/jetty-websocket/jars/jetty-websocket-8.1.16.v20140903.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar"/>
@@ -27,7 +27,7 @@
 				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
 				<metadata-artifact status="no" details="" size="8037" time="0" location="/Users/gaohan/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.1.16.v20140903.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom"/>
-				<caller organisation="frontend" name="frontend_sjs0.6_2.12" conf="phantom-js-jetty" rev="8.1.16.v20140903" rev-constraint-default="8.1.16.v20140903" rev-constraint-dynamic="8.1.16.v20140903" callerrev="1.2.1"/>
+				<caller organisation="frontend" name="frontend_sjs0.6_2.12" conf="phantom-js-jetty" rev="8.1.16.v20140903" rev-constraint-default="8.1.16.v20140903" rev-constraint-dynamic="8.1.16.v20140903" callerrev="1.1.1"/>
 				<artifacts>
 					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="359984" time="0" location="/Users/gaohan/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-8.1.16.v20140903.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar"/>

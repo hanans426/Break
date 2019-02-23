@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="protobuf"
 		confs="compile, runtime, test, provided, optional, protobuf, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190123154111"/>
+		date="20190210141705"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

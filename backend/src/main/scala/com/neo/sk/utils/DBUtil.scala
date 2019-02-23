@@ -3,7 +3,8 @@ package com.neo.sk.utils
 import com.zaxxer.hikari.HikariDataSource
 import org.slf4j.LoggerFactory
 import slick.driver.PostgresDriver.api._
-//import slick.jdbc.PostgresProfile.api._
+import slick.jdbc.PostgresProfile.api._
+import com.neo.sk.break.common.AppSettings._
 
 /**
  * User: Taoz
@@ -13,8 +14,6 @@ import slick.driver.PostgresDriver.api._
 object DBUtil {
   val log = LoggerFactory.getLogger(this.getClass)
   private val dataSource = createDataSource()
-
-  import com.neo.sk.break.common.AppSettings._
 
   private def createDataSource() = {
 

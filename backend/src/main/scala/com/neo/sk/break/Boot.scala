@@ -6,12 +6,11 @@ import akka.event.{Logging, LoggingAdapter}
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import com.neo.sk.break.http.HttpService
 import akka.actor.typed.scaladsl.adapter._
 import akka.dispatch.MessageDispatcher
 import scala.util.{Failure,Success}
-
 import scala.language.postfixOps
+import com.neo.sk.break.http.HttpService
 
 /**
   * User: Taoz
@@ -21,8 +20,7 @@ import scala.language.postfixOps
 object Boot extends HttpService {
 
   import concurrent.duration._
-  import com.neo.sk.break.common.AppSettings._
-
+  import  com.neo.sk.break.common.AppSettings._
 
   override implicit val system: ActorSystem = ActorSystem("break", config)
   override implicit val executor: MessageDispatcher = system.dispatchers.lookup("akka.actor.my-blocking-dispatcher")

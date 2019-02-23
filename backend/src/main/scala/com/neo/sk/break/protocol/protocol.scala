@@ -1,7 +1,6 @@
 package com.neo.sk.break.protocol
 
-import com.neo.sk.break.protocol.CommonErrorCode.ErrorRsp
-
+import com.neo.sk.break.shared.ptcl.ErrorRsp
 /**
   * User: gaohan
   * Date: 2019/1/22
@@ -15,6 +14,7 @@ object protocol {
     msg: String = "ok"
   ) extends Response
 
-  //val parseError = ErrorRsp(100001, "parse error")
+  val parseError = ErrorRsp(100001, "parse error")
+
 
 }

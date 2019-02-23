@@ -4,7 +4,7 @@
 		module="break$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190123154115"
+		publication="20190213201808"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

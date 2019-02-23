@@ -8,7 +8,7 @@ val scalaV = "2.12.6"
 //val scalaV = "2.11.8"
 
 val projectName = "break"
-val projectVersion = "1.2.1"
+val projectVersion = "1.1.1"
 
 val projectMainClass = "com.neo.sk.break.Boot"
 //val clientMainClass = "com.neo.sk.break.ClientBoot"
@@ -78,7 +78,10 @@ lazy val frontend = (project in file("frontend"))
       "io.suzaku" %%% "diode" % "1.1.2",
       //"com.lihaoyi" %%% "upickle" % "0.6.6",
       "com.lihaoyi" %%% "scalatags" % "0.6.5",
-      "org.seekloud" %%% "byteobject" % "0.1.2"
+      "org.seekloud" %%% "byteobject" % "0.1.2",
+      "com.github.japgolly.scalacss" %%% "core" % "0.5.5",
+      "in.nvilla" %%% "monadic-html" % "0.4.0-RC1",
+      "org.scala-lang.modules" %% "scala-xml" % "1.0.6"
       //"org.scala-js" %%% "scalajs-java-time" % scalaJsJavaTime
       //"com.lihaoyi" %%% "utest" % "0.3.0" % "test"
     )
@@ -98,9 +101,9 @@ lazy val backend = (project in file("backend")).enablePlugins(PackPlugin)
     // If you need to specify main classes manually, use packSettings and packMain
     //packSettings,
     // [Optional] Creating `hello` command that calls org.mydomain.Hello#main(Array[String])
-    packMain := Map("medusa" -> projectMainClass),
-    packJvmOpts := Map("medusa" -> Seq("-Xmx1g", "-Xms64m")),
-    packExtraClasspath := Map("medusa" -> Seq("."))
+    packMain := Map("break" -> projectMainClass),
+    packJvmOpts := Map("break" -> Seq("-Xmx1g", "-Xms64m")),
+    packExtraClasspath := Map("break" -> Seq("."))
   )
   .settings(
     libraryDependencies ++= Dependencies.backendDependencies

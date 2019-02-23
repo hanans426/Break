@@ -7,7 +7,6 @@ import akka.http.scaladsl.model.headers.`Cache-Control`
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.Materializer
-import com.neo.sk.break.common.AppSettings
 
 import scala.concurrent.ExecutionContextExecutor
 

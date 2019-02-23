@@ -1,4 +1,4 @@
-package com.neo.sk.break
+package com.neo.sk.break.protocol
 
 
 object JandCRoomProtocol{

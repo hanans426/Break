@@ -1,20 +1,36 @@
-<html>
-<body>
-<div>Hello World!</div>
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="/break/static/css/weui.min.css">
 
-<form action="#">
-  <label for="name">Name: </label><input id="name" type="text" />
-  <input id="join" type="button" value="Join!"/>
-</form>
+    <script src="/break/static/js/fetch.min.js"></script>
 
-<form action="#">
-  <label for="message">Say something: </label><input id="message" type="text" />
-  <input id="send" type="button" value="Send" disabled="true"/>
-</form>
 
-<div id="playground"></div>
+    <title>break</title>
+</head>
+<body bgcolor="#f5f5dc">
 
-<script type="text/javascript" src="frontend-fastopt.js"></script>
-<script type="text/javascript" src="frontend-launcher.js"></script>
+<canvas id="GameView" tabindex="0" style="display: none"></canvas>
+<canvas id="GameInfo" tabindex="1" style="display: none"></canvas>
+
+<img id="canvasPic" style="width:0px">
+<div id="playground" style="position: absolute;left: 0px;top:800px;"></div>
+
+<script src="/break/static/js/jquery-3.1.1.min.js"></script>
+
+
+<!--<script type="text/javascript" src="/break/static/sisout/frontend-fastopt.js"></script>-->
+
+
+<!--<script src="/break/static/js/jquery-3.1.1.min.js"></script>-->
+<!--<script>frontend.Main.main()</script>-->
+
+<script type="text/javascript" src="/break/static/sjsout/frontend-fastopt.js"></script>
+
+<!--<script type="text/javascript" src="/break/static/sjsout/frontend-jsdeps.js"></script>-->
+
+
 </body>
 </html>

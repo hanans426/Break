@@ -1,13 +1,10 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/gaohan/Downloads/break/frontend/src/main/scala/com/neo/sk/break/snake/scalajs/GameInfo.scala:62:15: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses[0m
-[0m[[0m[33mwarn[0m] [0m[0m    reconnect.disabled[0m
-[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/gaohan/Downloads/break/frontend/src/main/scala/com/neo/sk/break/snake/scalajs/NetGameHolder.scala:558:21: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Body(_, _), Bound(), Header(_, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                    spot match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/gaohan/Downloads/break/frontend/src/main/scala/com/neo/sk/break/snake/scalajs/NetGameHolder.scala:677:9: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Body(_, _), Bound(), Header(_, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0m        spot match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 0.6.20); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/break/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala:75:10: Cannot embed value of type () => scala.concurrent.Future[Unit] in xml attribute, implicit XmlAttributeEmbeddable[() => scala.concurrent.Future[Unit]] not found.[0m
+[0m[[0m[31merror[0m] [0m[0mThe following types are supported:[0m
+[0m[[0m[31merror[0m] [0m[0m- String[0m
+[0m[[0m[31merror[0m] [0m[0m- Boolean (false → remove attribute, true → empty attribute)[0m
+[0m[[0m[31merror[0m] [0m[0m- () => Unit, T => Unit event handler. Note: The return type needs to be Unit![0m
+[0m[[0m[31merror[0m] [0m[0m- mhtml.Var[T], mhtml.Rx[T] where T is XmlAttributeEmbeddable[0m
+[0m[[0m[31merror[0m] [0m[0m- Option[T] where T is XmlAttributeEmbeddable (None → remove from the DOM)[0m
+[0m[[0m[31merror[0m] [0m[0m        <button class={firstButton3.htmlClass} onclick={() => secretLogin()}>匿名登录</button>[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

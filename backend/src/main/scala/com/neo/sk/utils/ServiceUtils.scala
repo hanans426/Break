@@ -5,17 +5,16 @@ import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse}
 import akka.http.scaladsl.server
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.ValidationRejection
-import com.neo.sk.break.common.AppSettings
 import com.sun.xml.internal.ws.encoding.soap.DeserializationException
 import io.circe.generic.auto._
 import io.circe.parser.decode
 import io.circe.Error
 import io.circe.Decoder
 import org.slf4j.LoggerFactory
-import com.neo.sk.break.protocol.CommonErrorCode._
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
 import com.neo.sk.utils.SecureUtil._
+import com.neo.sk.break.protocol.CommonErrorCode._
 
 /**
   * User: Taoz
@@ -70,7 +69,7 @@ trait ServiceUtils extends CirceSupport {
       val paramList = List(appClientId.toString, timestamp, nonce, sn) ::: data
       if (timestamp.toLong + 120000 < System.currentTimeMillis()) {
         Future.successful(complete(requestTimeOut))
-      } else if (checkSignature(paramList, signature, AppSettings.gsKey)) {
+      } else if (checkSignature(paramList, signature, "aaaa")) {
         f
       } else {
         Future.successful(complete(signatureError))

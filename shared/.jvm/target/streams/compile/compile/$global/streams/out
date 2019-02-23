@@ -1,7 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/medusa/shared/src/main/scala/com/neo/sk/medusa/snake/Grid.scala:92:74: Boolean does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m        case x@Apple(_, _, _, _)  if( x.frame + randomFram < frameCount) {}=> true[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/medusa/shared/src/main/scala/com/neo/sk/medusa/snake/Grid.scala:107:29: value pathTo is not a member of Any[0m
-[0m[[0m[31merror[0m] [0m[0m            val nextLoc = p pathTo targetApple._1[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/break/shared/src/main/scala/com/neo/sk/break/shared/package.scala:148:2: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/break/shared/src/main/scala/com/neo/sk/break/shared/package.scala:128:3: Missing closing brace `}' assumed here[0m
+[0m[[0m[31merror[0m] [0m[0m  object ColorSetting {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/break/shared/src/main/scala/com/neo/sk/break/shared/package.scala:128:9: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m  object ColorSetting {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Desktop/break/shared/src/main/scala/com/neo/sk/break/shared/package.scala:148:1: eof expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

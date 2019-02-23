@@ -1,13 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Downloads/break/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala:18:45: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.server.Route[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult][0m
-[0m[[0m[31merror[0m] [0m[0m  private val login = (path("login") & post){[0m
-[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/gaohan/Downloads/break/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala:30:52: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.server.Route[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult][0m
-[0m[[0m[31merror[0m] [0m[0m  private val register = (path("register") & post) {[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/gaohan/Desktop/break/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala:18:30: imported `GameService' is permanently hidden by definition of trait GameService in package http[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.neo.sk.break.http.GameService[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

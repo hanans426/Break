@@ -4,16 +4,16 @@
 	<info
 		organisation="frontend"
 		module="frontend_sjs0.6_2.12"
-		revision="1.2.1"
+		revision="1.1.1"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, protobuf, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20190121210757"/>
+		date="20190210141127"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="scalajs-compiler_2.12.6">
 			<revision name="0.6.23" status="release" pubdate="20180516072239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-compiler/0.6.23/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="3270" time="0" location="/Users/gaohan/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.6/ivy-0.6.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.6/0.6.23/scalajs-compiler_2.12.6-0.6.23.pom"/>
-				<caller organisation="frontend" name="frontend_sjs0.6_2.12" conf="plugin" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="1.2.1"/>
+				<caller organisation="frontend" name="frontend_sjs0.6_2.12" conf="plugin" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="1.1.1"/>
 				<artifacts>
 					<artifact name="scalajs-compiler_2.12.6" type="jar" ext="jar" status="no" details="" size="1064140" time="0" location="/Users/gaohan/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.6/jars/scalajs-compiler_2.12.6-0.6.23.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.6/0.6.23/scalajs-compiler_2.12.6-0.6.23.jar"/>

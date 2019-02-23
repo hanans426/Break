@@ -1,1 +1,24 @@
-2019-01-23 16:19:25.482 282  WARN  slick.util.AsyncExecutor [main]  - Having maxConnection > maxThreads can result in deadlocks if transactions or database locks are used.
+2019-02-14 21:13:43.441 843  INFO  akka.event.slf4j.Slf4jLogger [break-akka.actor.default-dispatcher-3]  - Slf4jLogger started
+2019-02-14 21:13:43.570 972  INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Starting.
+2019-02-14 21:13:44.263 1665 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Done.
+2019-02-14 21:13:44.299 1701 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Server is listening on http://localhost:30372/break/index
+2019-02-14 21:16:50.281 888  INFO  akka.event.slf4j.Slf4jLogger [break-akka.actor.default-dispatcher-3]  - Slf4jLogger started
+2019-02-14 21:16:50.400 1007 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Starting.
+2019-02-14 21:16:51.043 1650 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-2] Boot$(akka://break) - Done.
+2019-02-14 21:16:51.078 1685 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-2] Boot$(akka://break) - Server is listening on http://localhost:30372/break/index
+2019-02-14 21:19:49.330 1424 INFO  akka.event.slf4j.Slf4jLogger [break-akka.actor.default-dispatcher-3]  - Slf4jLogger started
+2019-02-14 21:19:49.435 1529 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Starting.
+2019-02-14 21:19:51.692 3786 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Done.
+2019-02-14 21:19:51.730 3824 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Server is listening on http://localhost:30372/break/index
+2019-02-14 21:20:31.016 972  INFO  akka.event.slf4j.Slf4jLogger [break-akka.actor.default-dispatcher-3]  - Slf4jLogger started
+2019-02-14 21:20:31.146 1102 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Starting.
+2019-02-14 21:20:31.796 1752 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Done.
+2019-02-14 21:20:31.829 1785 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Server is listening on http://localhost:30372/break/index
+2019-02-14 21:20:36.836 908  INFO  akka.event.slf4j.Slf4jLogger [break-akka.actor.default-dispatcher-3]  - Slf4jLogger started
+2019-02-14 21:20:36.951 1023 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-4] Boot$(akka://break) - Starting.
+2019-02-14 21:20:37.600 1672 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Done.
+2019-02-14 21:20:37.632 1704 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Server is listening on http://localhost:30372/break/index
+2019-02-14 21:28:09.433 980  INFO  akka.event.slf4j.Slf4jLogger [break-akka.actor.default-dispatcher-2]  - Slf4jLogger started
+2019-02-14 21:28:09.564 1111 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Starting.
+2019-02-14 21:28:10.293 1840 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Done.
+2019-02-14 21:28:10.337 1884 INFO  com.neo.sk.break.Boot$ [break-akka.actor.default-dispatcher-3] Boot$(akka://break) - Server is listening on http://localhost:30372/break/index

@@ -41,29 +41,28 @@ object AppSettings {
   val httpInterface = appConfig.getString("http.interface")
   val httpPort = appConfig.getInt("http.port")
   val httpHost = appConfig.getString("http.host")
-  val httpDomain = appConfig.getString("http.domain")
 
-  val boundW = appConfig.getInt("bounds.w")
-  val boundH = appConfig.getInt("bounds.h")
+//  val boundW = appConfig.getInt("bounds.w")
+//  val boundH = appConfig.getInt("bounds.h")
 
-  val frameRate = appConfig.getInt("sync.frameRate")
-  val syncDelay = appConfig.getInt("sync.delay")
-
-  val appId = appConfig.getString("gameInfo.AppId")
-  val secureKey = appConfig.getString("gameInfo.SecureKey")
-  val gsKey = appConfig.getString("gameInfo.gsKey")
-  val gameId = appConfig.getLong("gameInfo.gameId")
-  val recordPath = appConfig.getString("record.recordPath")
-  val isRecord = appConfig.getBoolean("record.isRecord")
-  val isAuth = appConfig.getBoolean("isAuth")
-  val esheepProtocol = appConfig.getString("esheepServer.protocol")
-  val esheepHost = appConfig.getString("esheepServer.host")
-  
-  val autoBotConfig = appConfig.getConfig("autoBotSetting")
-  val isAutoBotEnable = autoBotConfig.getBoolean("isAutoBotEnable")
-  val autoBotNumber = autoBotConfig.getInt("autoBotNumber")
-  val botNameList = autoBotConfig.getStringList("botNameList").asScala
-  require(botNameList.lengthCompare(autoBotNumber) >= 0)
+//  val frameRate = appConfig.getInt("sync.frameRate")
+//  val syncDelay = appConfig.getInt("sync.delay")
+//
+//  val appId = appConfig.getString("gameInfo.AppId")
+//  val secureKey = appConfig.getString("gameInfo.SecureKey")
+//  val gsKey = appConfig.getString("gameInfo.gsKey")
+//  val gameId = appConfig.getLong("gameInfo.gameId")
+//  val recordPath = appConfig.getString("record.recordPath")
+//  val isRecord = appConfig.getBoolean("record.isRecord")
+//  val isAuth = appConfig.getBoolean("isAuth")
+//  val esheepProtocol = appConfig.getString("esheepServer.protocol")
+//  val esheepHost = appConfig.getString("esheepServer.host")
+//
+//  val autoBotConfig = appConfig.getConfig("autoBotSetting")
+//  val isAutoBotEnable = autoBotConfig.getBoolean("isAutoBotEnable")
+//  val autoBotNumber = autoBotConfig.getInt("autoBotNumber")
+//  val botNameList = autoBotConfig.getStringList("botNameList").asScala
+//  require(botNameList.lengthCompare(autoBotNumber) >= 0)
 
   val slickConfig = config.getConfig("slick.db")
   val slickUrl = slickConfig.getString("url")
