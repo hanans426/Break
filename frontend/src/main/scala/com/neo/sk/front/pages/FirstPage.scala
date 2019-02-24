@@ -44,6 +44,7 @@ object FirstPage extends Index {
   }
 
   def secretLogin():Unit = {
+
     Http.getAndParse[SecretIdRsp](Routes.Index.toSecretLogin).map{
       case Right(rsp) =>
         if(rsp.errCode == 0) {
@@ -54,9 +55,9 @@ object FirstPage extends Index {
         }
       case Left(e) =>
         println(s"secretLogin error:${e}")
+        JsFunc.alert("啊哦，匿名登录还有点问题，请您注册后登录哦")
 
     }
-
   }
 
 

@@ -1,702 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02fc48f-7c8b-45d4-927c-0dc2b261c42b" name="Default Changelist" comment="config">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/css/pure-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/css/weui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/html/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/js/fetch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/GridOnServer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/PlayGround.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/GameService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/SlickTables.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Index.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/GridOnClient.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/NetGameHolder.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/style/LoginStyle.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/style/RegisterStyle.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/Http.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/PageSwitcher.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/Shortcut.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Grid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Protocol.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/ptcl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fdd9082c-454a-47d4-a5c5-b476710a30ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fdd9082c-454a-47d4-a5c5-b476710a30ae.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fdd9082c-454a-47d4-a5c5-b476710a30ae/storage_v2/_src_/database/break._1iaBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fdd9082c-454a-47d4-a5c5-b476710a30ae/storage_v2/_src_/database/break._1iaBQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_js_scalajs_dom_sjs0_6_2_12_0_9_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/.jvm-shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/.jvm-shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/backend-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/backend-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/break.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/break.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/frontend-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/frontend-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/frontend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sharedJS-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sharedJVM-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+    <list default="true" id="e02fc48f-7c8b-45d4-927c-0dc2b261c42b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/medusa.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/Boot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/Boot.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/Delayer.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/AppSettings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/AppSettings.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/Constants.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/project/target/active.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/HttpService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/HttpService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/ResourceService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/ResourceService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/SessionBase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/SessionBase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/UserDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/Dao/UserDao.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/models/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/CommonErrorCode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/CommonErrorCode.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/JandCRoomProtocol.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/JandCRoomProtocol.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/RecordApiProtocol.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/RecordApiProtocol.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/protocol.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/protocol/protocol.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/snake/GridOnServer.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/BatRecordUtils.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/DBUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/DBUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ServiceUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ServiceUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/logs/application.2019-01-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/logs/application.2019-01-22.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/Boot$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/Boot$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/Boot.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/Boot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$CreateRoomRsp$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$CreateRoomRsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$JoinRoomRsp$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$JoinRoomRsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$UserInfo4Bot$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol$UserInfo4Bot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/JandCRoomProtocol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/common/AppSettings$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/common/AppSettings$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/common/AppSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/common/AppSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/HttpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/HttpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedDecoder$macro$9$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedDecoder$macro$9$1$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedDecoder$macro$9$1$anon$macro$7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedDecoder$macro$9$1$anon$macro$7$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedDecoder$macro$9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedDecoder$macro$9$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1$anon$macro$27$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1$anon$macro$27$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService$anon$importedEncoder$macro$29$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedDecoder$macro$39$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedDecoder$macro$39$1$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedDecoder$macro$39$1$anon$macro$37$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedDecoder$macro$39$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedEncoder$macro$59$1$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedEncoder$macro$59$1$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedEncoder$macro$59$1$anon$macro$57$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService$anon$importedEncoder$macro$59$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/RegisterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/ResourceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/ResourceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$SessionTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$SessionTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$UserSession$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$UserSession$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$UserSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$UserSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$UserSessionKey$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase$UserSessionKey$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/http/SessionBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/models/Dao/UserDao$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/models/Dao/UserDao$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/models/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/models/Dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol$CommonRsp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol$CommonRsp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol$CommonRsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol$CommonRsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/protocol/protocol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer$End$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer$Hello$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer$Key$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer$Start$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer$TimelyInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/break/snake/Delayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$PlayerRecord$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$PlayerRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$PlayerRecordWrap$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$PlayerRecordWrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$PutRecordRsp$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$PutRecordRsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedDecoder$macro$99$1$$anon$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedDecoder$macro$99$1$$anon$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedDecoder$macro$99$1$anon$macro$97$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedDecoder$macro$99$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1$anon$macro$65$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1$anon$macro$77$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils$anon$importedEncoder$macro$89$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/BatRecordUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/DBUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/DBUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/HttpUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$CommonRsp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$CommonRsp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$CommonRsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$CommonRsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$157$1$$anon$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$157$1$$anon$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$157$1$anon$macro$155$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$157$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$175$1$$anon$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$175$1$$anon$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$175$1$anon$macro$173$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedDecoder$macro$175$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$119$1$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$119$1$$anon$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$119$1$anon$macro$117$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$119$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$139$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$139$1$$anon$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$139$1$anon$macro$137$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$139$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$195$1$$anon$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$195$1$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$195$1$anon$macro$193$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$195$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$215$1$$anon$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$215$1$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$215$1$anon$macro$213$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$215$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$235$1$$anon$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$235$1$$anon$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$235$1$anon$macro$233$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils$anon$importedEncoder$macro$235$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/com/neo/sk/utils/ServiceUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/medusa.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/sjsout/frontend-fastopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/sjsout/frontend-fastopt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/classes/sjsout/frontend-fastopt.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/classes/sjsout/frontend-fastopt.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/backend/backend$sources/1.2.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/backend/backend$sources/1.2.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/backend/backend_2.12/1.2.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/backend/backend_2.12/1.2.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-protobuf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend$sources-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/scala-2.12/resolution-cache/reports/backend-backend_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/reStart/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/$global/reStart/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/$global/$global/protocArguments/previous" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/$global/$global/protocArguments/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/Main.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/Routes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Routes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/pages/LoginPage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/LoginPage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/pages/RegisterPage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/RegisterPage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/GridOnClient.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/JsFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/JsFunc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/scalajs/NetGameHolder.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/break/utils/PageSwitcher.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/GameRoom$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/GameInfo$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/GameMap$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/GameView$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/GridOnClient.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/JsFunc$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$$anon$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$$anon$13.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$$anon$19.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$$anon$25.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$$anon$7.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$MyColors$.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$26.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$27.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$28.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$29.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$30.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$31.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$32.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$33.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$34.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$35.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$36.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$37.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$38.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$39.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$40.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$41.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$42.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$43.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$44.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$45.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$46.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$47.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$48.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$49.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$50.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$51.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$52.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$53.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$54.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$55.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$56.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$57.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$58.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$59.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$60.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$61.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$62.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$63.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$64.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$65.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$66.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$67.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$68.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$69.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$70.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$71.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$72.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$73.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$74.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$75.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$76.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$77.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$78.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$79.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$80.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$$anon$81.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$220$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$234$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$252$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$261$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$267$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$277$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$288$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$299$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$305$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$309$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$315$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$322$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$331$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$342$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$350$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$362$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$370$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$382$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$396$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$400$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$407$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$414$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$420$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$426$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$432$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$443$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$454$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$467$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$477$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$484$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$493$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$503$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$511$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$523$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$531$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$538$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$546$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$557$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$566$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$574$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$581$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$584$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$589$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$601$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$610$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$617$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$620$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$626$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$634$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$639$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$650$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$658$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$665$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$671$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$677$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1$anon$macro$682$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericDecoder$macro$684$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$$anon$10.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$$anon$11.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$$anon$12.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$$anon$8.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$$anon$9.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$anon$macro$100$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$anon$macro$63$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$anon$macro$71$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$anon$macro$82$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1$anon$macro$92$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$105$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$$anon$14.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$$anon$15.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$$anon$16.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$$anon$17.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$$anon$18.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$anon$macro$116$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$anon$macro$124$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$anon$macro$135$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$anon$macro$145$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1$anon$macro$153$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$158$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$$anon$20.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$$anon$21.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$$anon$22.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$$anon$23.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$$anon$24.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$anon$macro$169$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$anon$macro$177$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$anon$macro$188$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$anon$macro$198$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1$anon$macro$206$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$211$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$$anon$2.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$$anon$3.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$$anon$4.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$$anon$5.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$$anon$6.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$anon$macro$10$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$anon$macro$18$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$anon$macro$29$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$anon$macro$39$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1$anon$macro$47$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$genericEncoder$macro$52$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$macro$1$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$macro$108$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$macro$161$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$macro$214$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetGameHolder$anon$macro$55$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$$anon$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$$anon$2.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$$anon$3.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$$anon$4.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$$anon$5.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$$anon$6.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$anon$macro$695$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$anon$macro$703$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$anon$macro$714$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$anon$macro$724$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1$anon$macro$732$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$genericEncoder$macro$737$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler$anon$macro$687$1.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/classes/com/neo/sk/break/snake/scalajs/NetInfoHandler.sjsir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/frontend/frontend$sources/1.2.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/frontend/frontend$sources/1.2.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/frontend/frontend_sjs0.6_2.12/1.2.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/frontend/frontend_sjs0.6_2.12/1.2.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-phantom-js-jetty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-phantom-js-jetty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-phantom-js-jetty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/resolution-cache/reports/frontend-frontend_sjs0.6_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/sjsout/frontend-fastopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/sjsout/frontend-fastopt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/scala-2.12/sjsout/frontend-fastopt.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/scala-2.12/sjsout/frontend-fastopt.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/$global/$global/streams/package-js-deps/out-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/clean/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/$global/$global/protocArguments/previous" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/$global/$global/protocArguments/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/fastOptJS/$global/streams/in-cache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/fastOptJS/$global/streams/in-cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/fastOptJS/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/fastOptJS/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/fastOptJS/$global/streams/out-cache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/fastOptJS/$global/streams/out-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/mainClass/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/mainClass/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0a112a727b9e71c46749$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0a112a727b9e71c46749.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$0a112a727b9e71c46749.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$2ad73a15cb825e9c1a07$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$2ad73a15cb825e9c1a07.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$2ad73a15cb825e9c1a07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$401b692bf2cb72214eca$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$401b692bf2cb72214eca.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$401b692bf2cb72214eca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$73e88cf13be193ba84b7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$73e88cf13be193ba84b7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$73e88cf13be193ba84b7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b3ce7b6c2874759144e6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b3ce7b6c2874759144e6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$b3ce7b6c2874759144e6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d0f38da0fab7e752db5c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d0f38da0fab7e752db5c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$d0f38da0fab7e752db5c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$da6d4c3829467382cca4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$da6d4c3829467382cca4.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$da6d4c3829467382cca4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$eaf396b11519737277f0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$eaf396b11519737277f0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$eaf396b11519737277f0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/active.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/active.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$60c0205727e5d2f34d33$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$60c0205727e5d2f34d33.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$60c0205727e5d2f34d33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8846ce350ea117714796$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8846ce350ea117714796.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8846ce350ea117714796.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dbef5a956c5e5bb339cf$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dbef5a956c5e5bb339cf.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dbef5a956c5e5bb339cf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/break-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/break-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/break-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/break-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/medusa-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/medusa-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/medusa-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/medusa-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/org.scala-sbt.temp/temp-module-98ec89c315ed408f615fff2c4774286d17323b01/1.0.5/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/org.scala-sbt.temp/temp-module-98ec89c315ed408f615fff2c4774286d17323b01/1.0.5/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-break-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-medusa-build-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-phantom-js-jetty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-phantom-js-jetty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-phantom-js-jetty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/reports/shared-shared_sjs0.6_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared_sjs0.6_2.12/1.2.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared_sjs0.6_2.12/1.2.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared_sjs0.6_2.12/1.2.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/scala-2.12/resolution-cache/shared/shared_sjs0.6_2.12/1.2.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/$global/$global/protocArguments/previous" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/$global/$global/protocArguments/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.js/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/classes/com/neo/sk/break/UserProtocol$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/classes/com/neo/sk/break/UserProtocol$UserLoginReq$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/classes/com/neo/sk/break/UserProtocol$UserLoginReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/classes/com/neo/sk/break/UserProtocol$UserRegisterReq$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/classes/com/neo/sk/break/UserProtocol$UserRegisterReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/classes/com/neo/sk/break/UserProtocol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/reports/shared-shared_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared$sources/1.2.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared_2.12/1.2.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared_2.12/1.2.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared_2.12/1.2.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/scala-2.12/resolution-cache/shared/shared_2.12/1.2.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/$global/$global/protocArguments/previous" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/$global/$global/protocArguments/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/shared/.jvm/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/UserProtocol.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/UserProtocol.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gencode/genTablesPsql/com/neo/sk/break/models/SlickTables.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logs/application.2019-01-22.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/break/break_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-protobuf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-protobuf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/break-break_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/clean/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -976,12 +301,13 @@
     <session id="-808972503">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -990,9 +316,9 @@
           <entry key="html" value="446" />
           <entry key="java" value="7" />
           <entry key="sbt" value="53" />
-          <entry key="scala" value="37462" />
+          <entry key="scala" value="38019" />
           <entry key="sql" value="4" />
-          <entry key="txt" value="6" />
+          <entry key="txt" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -1000,9 +326,9 @@
           <entry key="HOCON" value="42" />
           <entry key="HTML" value="446" />
           <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="123" />
           <entry key="SQL" value="4" />
-          <entry key="Scala" value="37462" />
+          <entry key="Scala" value="38019" />
           <entry key="sbt" value="53" />
         </counts>
       </usages-collector>
@@ -1018,7 +344,7 @@
           <entry key="css" value="6" />
           <entry key="gitignore" value="2" />
           <entry key="history" value="1" />
-          <entry key="html" value="22" />
+          <entry key="html" value="23" />
           <entry key="java" value="4" />
           <entry key="jpg" value="6" />
           <entry key="js" value="8" />
@@ -1026,7 +352,7 @@
           <entry key="png" value="3" />
           <entry key="properties" value="2" />
           <entry key="sbt" value="7" />
-          <entry key="scala" value="239" />
+          <entry key="scala" value="242" />
           <entry key="sql" value="1" />
           <entry key="ts" value="1" />
           <entry key="user" value="4" />
@@ -1038,14 +364,14 @@
           <entry key="CSS" value="6" />
           <entry key="Database Element" value="4" />
           <entry key="HOCON" value="4" />
-          <entry key="HTML" value="22" />
+          <entry key="HTML" value="23" />
           <entry key="Image" value="9" />
           <entry key="JAVA" value="4" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="2" />
           <entry key="SQL" value="1" />
-          <entry key="Scala" value="239" />
+          <entry key="Scala" value="242" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="5" />
           <entry key="sbt" value="7" />
@@ -1061,22 +387,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-              <folding>
-                <element signature="e#31#60#0" expanded="true" />
-                <element signature="e#691#708#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/LoginPage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="345">
               <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
               <folding>
                 <element signature="e#32#54#0" expanded="true" />
@@ -1088,8 +401,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Routes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -1097,8 +410,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="356">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding>
                 <element signature="e#33#79#0" expanded="true" />
               </folding>
@@ -1109,29 +422,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/Http.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+            <state relative-caret-position="2880">
+              <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Grid.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-              <folding>
-                <element signature="e#32#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-960">
-              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="331">
+              <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
               <folding>
                 <element signature="e#34#75#0" expanded="true" />
               </folding>
@@ -1140,9 +441,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/GridOnClient.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+              <folding>
+                <element signature="e#33#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/GridOnServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="240">
               <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="e#31#61#0" expanded="true" />
@@ -1154,20 +476,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/ptcl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+            <state relative-caret-position="265">
+              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               <folding>
                 <element signature="e#31#79#0" expanded="true" />
-                <element signature="e#659#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ServiceUtils.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/resources/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1176,7 +522,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/HttpService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="510">
               <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding>
                 <element signature="e#31#79#0" expanded="true" />
@@ -1188,8 +534,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/GameService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="435">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
               <folding>
                 <element signature="e#31#79#0" expanded="true" />
               </folding>
@@ -1198,36 +544,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/GridOnClient.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-              <folding>
-                <element signature="e#33#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Protocol.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="780">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="e#33#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/PlayGround.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-              <folding>
-                <element signature="e#31#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1358,8 +680,6 @@
         <option value="$PROJECT_DIR$/backend/src/main/resources/html/index.html" />
         <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/RegisterPage.scala" />
         <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/NetGameHolder.scala" />
-        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala" />
-        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala" />
         <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Grid.scala" />
         <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/GridOnClient.scala" />
         <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/PlayGround.scala" />
@@ -1370,8 +690,10 @@
         <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/HttpService.scala" />
         <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/GameService.scala" />
         <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Routes.scala" />
-        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala" />
         <option value="$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala" />
+        <option value="$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala" />
       </list>
     </option>
   </component>
@@ -1685,8 +1007,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1695,7 +1017,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550936489466" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551016985600" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1951,14 +1273,8 @@
       <workItem from="1548936796469" duration="1369000" />
       <workItem from="1549684406158" duration="53200000" />
       <workItem from="1549862300896" duration="132389000" />
-      <workItem from="1550715618128" duration="92575000" />
-    </task>
-    <task id="LOCAL-00025" summary="网页自适应debug">
-      <created>1541056126641</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1541056126641</updated>
+      <workItem from="1550715618128" duration="94336000" />
+      <workItem from="1551014310910" duration="1560000" />
     </task>
     <task id="LOCAL-00026" summary="网页大小自适应完成">
       <created>1541405354995</created>
@@ -2296,11 +1612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548939809784</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="待修改的bug:&#10;1.匿名登录&#10;2.游戏死亡判定和结束判定&#10;3.前后端延迟较大&#10;4.游戏卡顿&#10;......">
+      <created>1550936669098</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1550936669099</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1286992000" />
+    <option name="totallyTimeSpent" value="1290313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2314,7 +1637,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49198717" visible="true" weight="0.23631124" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49198717" visible="true" weight="0.24063401" />
       <window_info id="Structure" order="1" sideWeight="0.50566036" side_tool="true" weight="0.2615274" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2331,11 +1654,11 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.16276202" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.3292232" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.3292232" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5698847" visible="true" weight="0.35635018" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.5698847" visible="true" weight="0.35018495" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.43011528" side_tool="true" weight="0.26880395" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.29346487" />
       <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49711815" weight="0.42293465" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49567723" weight="0.16152897" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49567723" weight="0.53884095" />
       <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49927953" weight="0.3292232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2429,7 +1752,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge branch 'dev-2.0-gh' into dev-2.0&#10;&#10;# Conflicts:&#10;#&#9;client/src/main/resources/application.conf&#10;#&#9;client/src/main/scala/com/neo/sk/medusa/controller/GameController.scala" />
     <MESSAGE value="layerScene 与 getObservation" />
     <MESSAGE value="layer 分辨率&#10;viewByte" />
     <MESSAGE value="layerScene修改大小" />
@@ -2454,16 +1776,10 @@
     <MESSAGE value="action画面debug" />
     <MESSAGE value="snake color" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="待修改的bug:&#10;1.匿名登录&#10;2.游戏死亡判定和结束判定&#10;3.前后端延迟较大&#10;4.游戏卡顿&#10;......" />
+    <option name="LAST_COMMIT_MESSAGE" value="待修改的bug:&#10;1.匿名登录&#10;2.游戏死亡判定和结束判定&#10;3.前后端延迟较大&#10;4.游戏卡顿&#10;......" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/util/ByteString.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.13-sources.jar!/akka/stream/scaladsl/Sink.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -2503,9 +1819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-          <folding>
-            <element signature="e#32#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2513,19 +1826,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Main.scala" />
     <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/common/AppSettings.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -2624,26 +1928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2693,9 +1977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
-          <folding>
-            <element signature="e#32#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2717,32 +1998,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#34#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/PlayGround.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="-83">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/GridOnClient.scala">
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Grid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-          <folding>
-            <element signature="e#33#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/RegisterService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
+        <state relative-caret-position="480">
           <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="e#31#60#0" expanded="true" />
@@ -2751,49 +2026,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/PlayGround.scala">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/LoginPage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
           <folding>
-            <element signature="e#31#61#0" expanded="true" />
+            <element signature="e#32#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Grid.scala">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Routes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="e#32#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/Http.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
-          <folding>
-            <element signature="e#34#75#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2880">
+          <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Protocol.scala">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/GridOnClient.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="930">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding>
-            <element signature="e#33#81#0" expanded="true" />
+            <element signature="e#33#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/core/GridOnServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="240">
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="e#31#61#0" expanded="true" />
@@ -2803,58 +2072,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/ptcl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/utils/Http.scala">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/utils/ServiceUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+        <state relative-caret-position="1125">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/LoginPage.scala">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#32#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/GameService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="e#31#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/Routes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#33#79#0" expanded="true" />
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/HttpService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="510">
           <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding>
             <element signature="e#31#79#0" expanded="true" />
@@ -2862,13 +2108,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala">
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/GameService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+        <state relative-caret-position="435">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
           <folding>
             <element signature="e#31#79#0" expanded="true" />
-            <element signature="e#659#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/Protocol.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#33#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/scala/com/neo/sk/break/http/LoginService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="e#31#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/com/neo/sk/break/shared/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/pages/FirstPage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="e#33#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/scala/com/neo/sk/front/scalajs/DrawGame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+          <folding>
+            <element signature="e#34#75#0" expanded="true" />
           </folding>
         </state>
       </provider>

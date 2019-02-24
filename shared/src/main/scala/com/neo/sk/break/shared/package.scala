@@ -140,6 +140,7 @@ package object shared {
     val brick8 = "#E6E6FA"
     val errBrick = "#FFFAFA"
     val boundary = "#DCDCDC"
+    val warnFont = "#737373"
 
 
   }

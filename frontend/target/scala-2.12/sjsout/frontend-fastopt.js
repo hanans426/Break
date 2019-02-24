@@ -2446,7 +2446,8 @@ function $c_Lcom_neo_sk_break_shared_package$ColorSetting$() {
   this.brick7$1 = null;
   this.brick8$1 = null;
   this.errBrick$1 = null;
-  this.boundary$1 = null
+  this.boundary$1 = null;
+  this.warnFont$1 = null
 }
 $c_Lcom_neo_sk_break_shared_package$ColorSetting$.prototype = new $h_O();
 $c_Lcom_neo_sk_break_shared_package$ColorSetting$.prototype.constructor = $c_Lcom_neo_sk_break_shared_package$ColorSetting$;
@@ -2469,6 +2470,7 @@ $c_Lcom_neo_sk_break_shared_package$ColorSetting$.prototype.init___ = (function(
   this.brick8$1 = "#E6E6FA";
   this.errBrick$1 = "#FFFAFA";
   this.boundary$1 = "#DCDCDC";
+  this.warnFont$1 = "#737373";
   return this
 });
 var $d_Lcom_neo_sk_break_shared_package$ColorSetting$ = new $TypeData().initClass({
@@ -2520,8 +2522,7 @@ function $m_Lcom_neo_sk_break_shared_package$MyBoundary$() {
 /** @constructor */
 function $c_Lcom_neo_sk_front_Routes$() {
   $c_O.call(this);
-  this.base$1 = null;
-  this.toSecretLogin$1 = null
+  this.base$1 = null
 }
 $c_Lcom_neo_sk_front_Routes$.prototype = new $h_O();
 $c_Lcom_neo_sk_front_Routes$.prototype.constructor = $c_Lcom_neo_sk_front_Routes$;
@@ -2531,9 +2532,7 @@ function $h_Lcom_neo_sk_front_Routes$() {
 }
 $h_Lcom_neo_sk_front_Routes$.prototype = $c_Lcom_neo_sk_front_Routes$.prototype;
 $c_Lcom_neo_sk_front_Routes$.prototype.init___ = (function() {
-  $n_Lcom_neo_sk_front_Routes$ = this;
   this.base$1 = "/break";
-  this.toSecretLogin$1 = (this.base$1 + "/toSecretLogin");
   return this
 });
 var $d_Lcom_neo_sk_front_Routes$ = new $TypeData().initClass({
@@ -2549,6 +2548,41 @@ function $m_Lcom_neo_sk_front_Routes$() {
     $n_Lcom_neo_sk_front_Routes$ = new $c_Lcom_neo_sk_front_Routes$().init___()
   };
   return $n_Lcom_neo_sk_front_Routes$
+}
+/** @constructor */
+function $c_Lcom_neo_sk_front_Routes$Index$() {
+  $c_O.call(this);
+  this.toLogin$1 = null;
+  this.toRegister$1 = null;
+  this.toSecretLogin$1 = null
+}
+$c_Lcom_neo_sk_front_Routes$Index$.prototype = new $h_O();
+$c_Lcom_neo_sk_front_Routes$Index$.prototype.constructor = $c_Lcom_neo_sk_front_Routes$Index$;
+/** @constructor */
+function $h_Lcom_neo_sk_front_Routes$Index$() {
+  /*<skip>*/
+}
+$h_Lcom_neo_sk_front_Routes$Index$.prototype = $c_Lcom_neo_sk_front_Routes$Index$.prototype;
+$c_Lcom_neo_sk_front_Routes$Index$.prototype.init___ = (function() {
+  $n_Lcom_neo_sk_front_Routes$Index$ = this;
+  this.toLogin$1 = ($m_Lcom_neo_sk_front_Routes$().base$1 + "/toLogin");
+  this.toRegister$1 = ($m_Lcom_neo_sk_front_Routes$().base$1 + "/toRegister");
+  this.toSecretLogin$1 = ($m_Lcom_neo_sk_front_Routes$().base$1 + "/toSecretLogin");
+  return this
+});
+var $d_Lcom_neo_sk_front_Routes$Index$ = new $TypeData().initClass({
+  Lcom_neo_sk_front_Routes$Index$: 0
+}, false, "com.neo.sk.front.Routes$Index$", {
+  Lcom_neo_sk_front_Routes$Index$: 1,
+  O: 1
+});
+$c_Lcom_neo_sk_front_Routes$Index$.prototype.$classData = $d_Lcom_neo_sk_front_Routes$Index$;
+var $n_Lcom_neo_sk_front_Routes$Index$ = (void 0);
+function $m_Lcom_neo_sk_front_Routes$Index$() {
+  if ((!$n_Lcom_neo_sk_front_Routes$Index$)) {
+    $n_Lcom_neo_sk_front_Routes$Index$ = new $c_Lcom_neo_sk_front_Routes$Index$().init___()
+  };
+  return $n_Lcom_neo_sk_front_Routes$Index$
 }
 /** @constructor */
 function $c_Lcom_neo_sk_front_Routes$Login$() {
@@ -2774,7 +2808,17 @@ $c_Lcom_neo_sk_front_scalajs_DrawGame$.prototype.drawGrid__T__Lcom_neo_sk_break_
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.font = "24px Helvetica";
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.fillText(("score:" + score), (-100.0), 100.0);
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.fillText(("life:" + life), (-100.0), 200.0);
-      $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.restore()
+      $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.restore();
+      if ((ball.center$1.y$1 >= 605)) {
+        $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.clearRect(0.0, 0.0, 1200.0, 700.0);
+        $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.save();
+        var jsx$4 = $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1;
+        var s$10 = $m_Lcom_neo_sk_break_shared_package$ColorSetting$().warnFont$1;
+        jsx$4.fillStyle = s$10;
+        $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.font = "36px Helvetica";
+        $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.fillText("you are dead, please try again!", 400.0, 300.0);
+        $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.restore()
+      }
     };
     these$2 = $as_sci_List(these$2.tail__O())
   };
@@ -2786,13 +2830,13 @@ $c_Lcom_neo_sk_front_scalajs_DrawGame$.prototype.drawGrid__T__Lcom_neo_sk_break_
     if (((board.location$1.x$1 >= 0) && (((board.location$1.x$1 + $m_Lcom_neo_sk_break_shared_package$BoardsSize$().l$1) | 0) <= $m_Lcom_neo_sk_break_shared_package$MyBoundary$().w$1))) {
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.clearRect(board.location$1.x$1, 605.0, $m_Lcom_neo_sk_break_shared_package$BoardsSize$().l$1, $m_Lcom_neo_sk_break_shared_package$BoardsSize$().h$1);
       var boardX = ((board.location$1.x$1 + $imul(board.direction$1.x$1, $m_Lcom_neo_sk_break_shared_package$().boardsSpeed$1)) | 0);
-      var jsx$4 = $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1;
-      var s$10 = board.color$1;
-      jsx$4.fillStyle = s$10;
-      $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.beginPath();
       var jsx$5 = $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1;
       var s$11 = board.color$1;
-      jsx$5.strokeStyle = s$11;
+      jsx$5.fillStyle = s$11;
+      $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.beginPath();
+      var jsx$6 = $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1;
+      var s$12 = board.color$1;
+      jsx$6.strokeStyle = s$12;
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.fillRect(boardX, 605.0, $m_Lcom_neo_sk_break_shared_package$BoardsSize$().l$1, $m_Lcom_neo_sk_break_shared_package$BoardsSize$().h$1);
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.fillText(("Id:" + id$1), boardX, 625.0);
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.stroke();
@@ -2805,7 +2849,16 @@ $c_Lcom_neo_sk_front_scalajs_DrawGame$.prototype.drawGrid__T__Lcom_neo_sk_break_
       $m_Lcom_neo_sk_front_scalajs_DrawGame$().ctx$1.fillText(id$1, (($m_Lcom_neo_sk_break_shared_package$MyBoundary$().w$1 - $m_Lcom_neo_sk_break_shared_package$BoardsSize$().l$1) | 0), 605.0)
     };
     these$3 = $as_sci_List(these$3.tail__O())
-  }
+  };
+  var jsx$7 = this.ctx$1;
+  var s$13 = $m_Lcom_neo_sk_break_shared_package$ColorSetting$().warnFont$1;
+  jsx$7.fillStyle = s$13;
+  this.ctx$1.font = "12px Helvetica";
+  this.ctx$1.fillText("\u4e00\u4e9b\u8bf4\u660e:", 1200.0, 10.0);
+  this.ctx$1.fillText("1.\u6309\u4e0b\u7a7a\u683c\uff0c\u542f\u52a8\u6e38\u620f", 1200.0, 30.0);
+  this.ctx$1.fillText("2.\u677f\u5b50\u53ea\u80fd\u63a5\u5230\u76f8\u540c\u989c\u8272\u7684\u5c0f\u7403", 1200.0, 50.0);
+  this.ctx$1.fillText("3.\u6682\u65f6\u53ea\u80fd\u901a\u8fc7\u5237\u65b0\u91cd\u65b0\u52a0\u5165", 1200.0, 70.0);
+  this.ctx$1.fillText("4.\u8fdb\u884c\u4e00\u6bb5\u65f6\u95f4\u540e\u4f1a\u5f88\u5361.....", 1200.0, 90.0)
 });
 var $d_Lcom_neo_sk_front_scalajs_DrawGame$ = new $TypeData().initClass({
   Lcom_neo_sk_front_scalajs_DrawGame$: 0
@@ -16887,7 +16940,7 @@ $c_Lcom_neo_sk_front_pages_FirstPage$.prototype.pageName__T = (function() {
 });
 $c_Lcom_neo_sk_front_pages_FirstPage$.prototype.secretLogin__V = (function() {
   var jsx$2 = $m_Lcom_neo_sk_front_utils_Http$();
-  var jsx$1 = $m_Lcom_neo_sk_front_Routes$().toSecretLogin$1;
+  var jsx$1 = $m_Lcom_neo_sk_front_Routes$Index$().toSecretLogin$1;
   $m_Lio_circe_Decoder$();
   var inst$macro$14 = new $c_Lcom_neo_sk_front_pages_FirstPage$anon$exportDecoder$macro$13$1().init___().inst$macro$1__Lio_circe_generic_decoding_DerivedDecoder();
   var t = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, inst$macro$14$1) {
@@ -16916,7 +16969,8 @@ $c_Lcom_neo_sk_front_pages_FirstPage$.prototype.secretLogin__V = (function() {
         var x = ("secretLogin error:" + e);
         var this$5 = $m_s_Console$();
         var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
-        this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"))
+        this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+        $g.alert("\u554a\u54e6\uff0c\u533f\u540d\u767b\u5f55\u8fd8\u6709\u70b9\u95ee\u9898\uff0c\u8bf7\u60a8\u6ce8\u518c\u540e\u767b\u5f55\u54e6")
       } else {
         throw new $c_s_MatchError().init___O(x0$1)
       }

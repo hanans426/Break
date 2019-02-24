@@ -118,6 +118,14 @@ object DrawGame {
         ctx.fillText(s"score:${score}",-100, 100)
         ctx.fillText(s"life:${life}", -100, 200)
         ctx.restore()
+        if(ball.center.y >= 605){
+          ctx.clearRect(0,0,1200, 700)
+          ctx.save()
+          ctx.fillStyle = ColorSetting.warnFont
+          ctx.font = "36px Helvetica"
+          ctx.fillText("you are dead, please try again!", 400, 300)
+          ctx.restore()
+        }
       }
 
 
@@ -146,6 +154,13 @@ object DrawGame {
       }
 
     }
+    ctx.fillStyle = ColorSetting.warnFont
+    ctx.font = "12px Helvetica"
+    ctx.fillText("一些说明:", 1200, 10)
+    ctx.fillText("1.按下空格，启动游戏", 1200, 30)
+    ctx.fillText("2.板子只能接到相同颜色的小球", 1200, 50)
+    ctx.fillText("3.暂时只能通过刷新重新加入", 1200, 70)
+    ctx.fillText("4.进行一段时间后会很卡.....", 1200, 90)
 
   }
 

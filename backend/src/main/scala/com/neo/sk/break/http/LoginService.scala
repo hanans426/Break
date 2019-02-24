@@ -68,9 +68,14 @@ trait LoginService extends ServiceUtils with SessionBase{
   }
 
    private def toSecretLogin = (path("toSecretLogin") & get){
-    val a = s"player${idGenerator.getAndIncrement().toLong}"
-    complete(SecretIdRsp(a,0,""))
-  }
+     dealGetReq(
+       Future{
+         val a = s"player${idGenerator.getAndIncrement().toLong}"
+       complete(SecretIdRsp(a, 0, ""))
+       }
+     )
+   }
+
 
   val indexRoute =
     pathPrefix("index"){
